@@ -76,6 +76,6 @@ const lastTokenFile = "lastTokenId.txt";
     };
 
     updateStats();
-    setInterval(updateStats, 60 * 1000);
+    setInterval(updateStats, 300 * 1000);
   });
 })();
