@@ -2,3 +2,5 @@ version: '3.3'
 services:
   node-notifier:
     build: .
+    volumes:
+      - ./data/lastTokenId.txt:/app/data/lastTokenId.txt

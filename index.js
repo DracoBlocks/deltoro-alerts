@@ -29,7 +29,7 @@ const getPublicInfo = async () => {
   return contract.methods.getPublicInfo().call();
 };
 
-const lastTokenFile = "lastTokenId.txt";
+const lastTokenFile = "data/lastTokenId.txt";
 
 (async () => {
   fs.readFile(lastTokenFile, function (err, buf) {
